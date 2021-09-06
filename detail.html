@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/lightslider.css">
+    <link rel="stylesheet" href="/css/menu/menu.css">
+    <link rel="stylesheet" href="/css/footer/footer.css">
+    <link rel="stylesheet" href="/css/responsive/responsive.css">
+    <link rel="stylesheet" href="css/detail/detail.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand logo_h" href="index.html">
+                        Hello
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link">Shop</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-product.html">Product
+                                            Details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="tracking-order.html">Tracking</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                        <ul class="nav-shop">
+                            <li class="nav-item"><button><i class="fas fa-search"></i></button></li>
+                            <li class="nav-item"><button><i class="fas fa-shopping-cart"></i><span
+                                        class="nav-shop__circle">3</span></button> </li>
+                            <li class="nav-item"><a class="button-header" href="#">Buy Now</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="product-main mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 main-content product-main-inner">
+                        <div class="row">
+                            <div class="product-img-box col-md-5">
+                                <ul id="lightSlider">
+                                    <li data-thumb="img/1.png">
+                                        <img class="img-fluid" src="img/1.png" />
+                                    </li>
+                                    <li data-thumb="img/2.png">
+                                        <img class="img-fluid" src="img/2.png" />
+                                    </li>
+                                    <li data-thumb="img/3.png">
+                                        <img class="img-fluid" src="img/3.png" />
+                                    </li>
+                                    <li data-thumb="img/4.png">
+                                        <img class="img-fluid" src="img/4.png" />
+                                    </li>
+                                    <li data-thumb="img/5.png">
+                                        <img class="img-fluid" src="img/5.png" />
+                                    </li>
+                                    <li data-thumb="img/2.png">
+                                        <img class="img-fluid" src="img/2.png" />
+                                    </li>
+                                    <li data-thumb="img/7.png">
+                                        <img class="img-fluid" src="img/7.png" />
+                                    </li>
+                                    <li data-thumb="img/6.png">
+                                        <img class="img-fluid" src="img/6.png" />
+                                    </li>
+                                    <li data-thumb="img/7.png">
+                                        <img class="img-fluid" src="img/7.png" />
+                                    </li>
+                                    <li data-thumb="img/a.png">
+                                        <img class="img-fluid" src="img/a.png" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-shop col-md-7">
+                                <div class="product-shop-wraper">
+                                    <!-- name product -->
+                                    <div class="product-name top-product-detail">
+                                        <h1>
+                                            <a href="#">
+                                                <span>Girl Black Blouse</span></a>
+                                        </h1>
+                                    </div>
+
+                                    <!-- vote -->
+                                    <div class="review-product-details">
+                                        <span class="spr-badge">
+                                            <span class="spr-starrating spr-badge-starrating"></span>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="spr-badge-caption">No reviews</span>
+                                        </span>
+
+                                    </div>
+
+                                    <!-- price -->
+                                    <div class="product-type-data">
+                                        <div class="price-box">
+                                            <div id="price" class="detail-price" itemprop="price">
+                                                <div class="price"><span class="money" data-currency-usd="$49.00"
+                                                        data-currency="USD">$49.00</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- description -->
+                                    <div class="short-description-detail">
+                                        <div class="short-description">
+                                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed
+                                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                ad
+                                                minim veniam, quis nostrud exercitation ullamco laboris nisi...</div>
+                                        </div>
+                                    </div>
+                                    <!-- categories,check in stock -->
+                                    <div class="middle-product-detail">
+                                        <div class="product-inventory">
+                                            <span>Availability:</span>
+                                            <span class="in-stock">In Stock</span>
+                                        </div>
+                                        <div class="product-category">
+                                            <span data-translate="products.product.category">Categories:</span>
+                                            <span class="category-list"><a href="#" title="">ALBUMS</a>,&nbsp;<a
+                                                    href="#" title="">SHOES</a>,&nbsp;<a href="#"
+                                                    title="">SHOP</a>,&nbsp;<a href="#" title="">WATCHES</a></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- size -->
+                                    <div id="product-variants" class="product-options">
+                                        <div class="swatch clearfix">
+                                            <div class="header">Size:</div>
+                                            <div class="variant-items">
+                                                <div data-value="Small"
+                                                    class="swatch-element square size-small  small available"><input
+                                                        id="swatch-0-small" type="radio" name="option-0"
+                                                        value="Small"><label for="swatch-0-small">Small<img
+                                                            class="crossed-out"></label>
+                                                </div>
+                                                <div data-value="Medium"
+                                                    class="swatch-element square size-small  medium"><input
+                                                        id="swatch-0-medium" type="radio" name="option-0"
+                                                        value="Medium"><label for="swatch-0-medium">Medium<img
+                                                            class="crossed-out"></label>
+                                                </div>
+                                                <div data-value="Large" class="swatch-element square size-small  large">
+                                                    <input id="swatch-0-large" type="radio" name="option-0"
+                                                        value="Large"><label for="swatch-0-large">Large<img
+                                                            class="crossed-out"></label>
+                                                </div>
+                                                <div data-value="Extra Large"
+                                                    class="swatch-element square size-small  extra-large"><input
+                                                        id="swatch-0-extra-large" type="radio" name="option-0"
+                                                        value="Extra Large"><label for="swatch-0-extra-large">Extra
+                                                        Large</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- button -->
+                                    <div class="product-options-bottom">
+                                        <div class="add-to-cart-box">
+                                            <div class="input-box">
+                                                <input type="text" name="quantity" value="1" size="2"
+                                                    class="quantity-selector">
+                                                <div class="plus-minus">
+                                                    <div class="increase items">
+                                                        <i class="fas fa-plus"></i>
+                                                    </div>
+                                                    <div class="reduced items">
+                                                        <i class="fas fa-minus"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="action-list addtocart">
+                                                    <div class="button-wrapper">
+                                                        <div class="button-wrapper-content">
+                                                            <button type="submit" name="add"
+                                                                class="btn-cart add-to-cart bordered uppercase">
+                                                                <i class="fas fa-cart"></i>
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="action-list wishlist">
+                                                    <ul class="add-to-links">
+                                                        <li><a href="#" class="link-wishlist" title="Add to wishlist"><i
+                                                                    class="fas fa-heart"></i></a></li>
+                                                        <li><a href="#" class="link-compare" title="Add to compare"><i
+                                                                    class="far fa-chart-bar"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- btn share -->
+                                    <div class="product-share">
+                                        <a href="#" class="share-twitter">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#" class="share-facebook">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#" class="share-linkedin">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                        <a href="#" class="share-googleplus">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                        <a href="#" class="share-email">
+                                            <i class="fas fa-envelope"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 sidebar-right col-right">
+                        <div class="custom-block custom-block-1">
+                            <div>
+                                <i class="fas fa-shipping-fast"></i>
+                                <h3>FREE<br>SHIPPING</h3>
+                            </div>
+                            <div>
+                                <i class="fas fa-dollar-sign"></i>
+                                <h3>100% MONEY<br>BACK GUARANTEE</h3>
+                            </div>
+                            <div>
+                                <i class="fas fa-headset"></i>
+                                <h3>100% MONEY<br>BACK GUARANTEE</h3>
+                            </div>
+                        </div>
+
+                        <div class="img-sales">
+                            <img src="/img/shop6_sidebar_banner_500x.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Bests seller -->
+                    <section class="section-margin calc-60px">
+                        <div class="container">
+                            <div class="section-intro pb-60px">
+                                <h4><span class="section-intro__style">ALSO PURCHASED</span></h4>
+                            </div>
+                            <ul class="sliders" id="sliders">
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/1.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Accessories</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Quartz Belt
+                                                    Watch</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/2.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Beauty</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Women
+                                                    Freshwash</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/3.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Decor</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Room Flash
+                                                    Light</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/4.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Decor</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Room Flash
+                                                    Light</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/5.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Accessories</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Quartz Belt
+                                                    Watch</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/6.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Beauty</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Women
+                                                    Freshwash</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/7.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Decor</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Room Flash
+                                                    Light</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/a.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Decor</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Room Flash
+                                                    Light</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item" style="width: 255px; margin-right: 30px;">
+                                    <div class="card text-center card-product">
+                                        <div class="card-product__img">
+                                            <img class="img-fluid" src="/img/8.png">
+                                            <ul class="card-product__imgOverlay">
+                                                <li><button><i class="fas fa-search"></i></button></li>
+                                                <li><button><i class="fas fa-shopping-cart"></i></button></li>
+                                                <li><button><i class="fas fa-heart"></i></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>Decor</p>
+                                            <h4 class="card-product__title"><a href="single-product.html">Room Flash
+                                                    Light</a></h4>
+                                            <p class="card-product__price">$150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-area" style="padding: 50px 0 20px 0 !important;">
+            <div class="container">
+                <div class="row section_gap">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title large_title">Our Mission</h4>
+                            <p>
+                                So seed seed green that winged cattle in. Gathering thing made fly you're no
+                                divided deep moved us lan Gathering thing us land years living.
+                            </p>
+                            <p>
+                                So seed seed green that winged cattle in. Gathering thing made fly you're no divided
+                                deep moved
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title">Quick Links</h4>
+                            <ul class="list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget instafeed">
+                            <h4 class="footer_title">Gallery</h4>
+                            <ul class="list instafeed" style="float: right;">
+                                <li><img class="img-fluid" src="img/1.png"></li>
+                                <li><img class="img-fluid" src="img/2.png"></li>
+                                <li><img class="img-fluid" src="img/3.png"></li>
+                                <li><img class="img-fluid" src="img/4.png"></li>
+                                <li><img class="img-fluid" src="img/5.png"></li>
+                                <li><img class="img-fluid" src="img/6.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets" style="display: block;float: right;">
+                            <h4 class="footer_title">Contact Us</h4>
+                            <div class="ml-40">
+                                <p class="sm-head">
+                                    <span class="fa fa-location-arrow"></span>
+                                    Head Office
+                                </p>
+                                <p>123, Main Street, Your City</p>
+                                <p class="sm-head">
+                                    <span class="fa fa-phone"></span>
+                                    Phone Number
+                                </p>
+                                <p>
+                                    +123 456 7890 <br>
+                                    +123 456 7890
+                                </p>
+                                <p class="sm-head">
+                                    <span class="fa fa-envelope"></span>
+                                    Email
+                                </p>
+                                <p>
+                                    free@infoexample.com <br>
+                                    www.infoexample.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/lightslider.js"></script>
+    <script src="/js/detail/detail.js"></script>
+    <script src="/js/style.js"></script>
+</body>
+
+</html>

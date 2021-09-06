@@ -1,0 +1,89 @@
+section {
+    display: block;
+}
+
+.rounded {
+    border-radius: 0.375rem !important;
+}
+
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 7%) !important;
+}
+
+.view.zoom.z-depth-2.rounded:hover img {
+    transform: scale(1.2);
+}
+
+.zoom img {
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.view img {
+    position: relative;
+    display: block;
+}
+
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn.btn-sm {
+    font-size: 10.24px;
+    padding: 11px 21px 10px 21px;
+    line-height: 1.1;
+}
+
+.btn {
+    margin: 0;
+    font-weight: 500;
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    font-size: 12px;
+    padding: 17px 29px 16px 29px;
+    line-height: 1;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1266f1 !important;
+}
+
+.pagination .page-item .page-link {
+    font-size: .9rem;
+    color: #212529;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #4285f4;
+    border-radius: .125rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+select.mdb-select.md-outline.md-form.initialized {
+    padding: 5px 15px;
+    outline: none;
+    border: 1px solid #495057a8;
+}
+
+.select-wrapper.md-form.md-outline input.select-dropdown {
+    padding: .375rem .75rem;
+    color: #a4a6a8;
+}

@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
+
+p {
+    color: #777;
+}
+
+/* brand sales */
+
+.offer {
+    background: url("/img/8.png") right center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.offer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #debdbd4f;
+}
+
+.offer__content {
+    padding: 100px 0 110px 0;
+}
+
+.offer__content h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.offer__content h4 {
+    font-size: 30px;
+}
+
+.button--active {
+    background: #384aeb;
+    color: #fff;
+}
+
+.offer__content p {
+    color: #555;
+}
+
+/* popular */
+
+.section-intro p {
+    margin-bottom: 3px;
+}
+
+/* subscribe */
+
+.subscribe-position {
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    padding: 45px 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 -5px 20px 0 rgb(56 74 235 / 10%);
+}
+
+.subscribe__title {
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.subscribe-form .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.subscribe-form .form-control {
+    border-radius: 30px;
+    height: 50px;
+    border-color: #eee;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.subscribe-form button {
+    margin-left: 15px;
+}
+
+/* support */
+
+.porto-inner-container {
+    padding-top: 4.5rem;
+    padding-bottom: 2.5rem;
+    background-color: #111111;
+}
+
+.porto-sicon-box.top-icon {
+    text-align: center;
+}
+
+.wpb_wrapper .top-icon .porto-just-icon-wrapper {
+    margin-bottom: 2rem;
+}
+
+.port-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.porto-icon i {
+    color: #ffffff;
+    font-size: 35px;
+    display: inline-block;
+}
+
+.top-icon .porto-sicon-header {
+    margin-bottom: 1rem;
+}
+
+.top-icon .porto-sicon-header h3.porto-sicon-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.porto-sicon-header h3.porto-sicon-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.top-icon .porto-sicon-header p {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.port-sicon-description {
+    font-size: 1rem;
+    line-height: 1.85;
+}
+
+.port-sicon-description p {
+    color: #777;
+}
+
+.z-depth-2 {
+    -webkit-box-shadow: 0 8px 17px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 7%) !important;
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 7%) !important;
+}
+
+.rounded {
+    border-radius: .375rem !important;
+}
+
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+
+.view img, .view video {
+    position: relative;
+    display: block;
+}
+
+.badge-news {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.badge-pill {
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+.view img {
+    width: 100%;
+    height: 100%;
+}
+
+/* pagination */
+
+.pagination .page-item .page-link {
+    font-size: .9rem;
+    color: #212529;
+    background-color: transparent;
+    border: 1px solid rgb(180, 176, 176);
+    outline: 0;
+    font-size: 15px;
+    color: #777;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.waves-effect, a.waves-light {
+    display: inline-block;
+}
+
+a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}

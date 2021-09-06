@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/menu/menu.css">
+    <link rel="stylesheet" href="/css/footer/footer.css">
+    <link rel="stylesheet" href="/css/responsive/responsive.css">
+    <link rel="stylesheet" href="/css/shop/shop.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand logo_h" href="index.html">
+                        Hello
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link">Shop</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="detail.html">Product
+                                            Details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="tracking-order.html">Tracking</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                        <ul class="nav-shop">
+                            <li class="nav-item"><button><i class="fas fa-search"></i></button></li>
+                            <li class="nav-item"><button><i class="fas fa-shopping-cart"></i><span
+                                        class="nav-shop__circle">3</span></button> </li>
+                            <li class="nav-item"><a class="button-header" href="#">Buy Now</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mt-3 mb-4">
+                    <h4 class="mb-4">Categories</h4>
+                    <section>
+                        <div class="text-muted small text-uppercase mb-5">
+                            <p class="mb-3"><a href="#!" class="card-link-secondary">Decorative accessories</a></p>
+                            <p class="mb-3"><a href="#!" class="card-link-secondary">Cylinders and jars</a></p>
+                            <p class="mb-3"><a href="#!" class="card-link-secondary">Wall decorations</a></p>
+                            <p class="mb-3"><a href="#!" class="card-link-secondary">Flowerpots</a></p>
+                            <p class="mb-3"><a href="#!" class="card-link-secondary">Hourglass</a></p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-8">
+                    <section>
+                        <!-- Block content -->
+                        <div class="row d-flex justify-content-around align-items-center mb-4">
+                            <div class="col-12 col-md-3 text-center text-md-left">
+                                <a href="#!" class="text-reset"><i class="fas fa-th-list fa-lg mr-1"></i></a>
+                                <a href="#!" class="text-reset"><i class="fas fa-th-large fa-lg"></i></a>
+                            </div>
+                            <div class="col-12 col-md-5">
+                                <div class="d-flex flex-wrap">
+                                    <div class="select-outline position-relative w-100">
+                                        <select class="mdb-select md-outline md-form initialized">
+                                            <option value="" disabled="" selected="">Sort by</option>
+                                            <option value="1">Popularity</option>
+                                            <option value="2">Price: lowest to highest</option>
+                                            <option value="3">Price: highest to lowest</option>
+                                            <option value="4">Newest</option>
+                                            <option value="5">Most rated</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 text-center">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center float-md-right mb-0">
+                                        <li class="page-item"><a class="page-link waves-effect waves-effect"><i
+                                                    class="fas fa-chevron-left"></i></a></li>
+                                        <li class="page-item active"><a
+                                                class="page-link waves-effect waves-effect">1</a></li>
+                                        <li class="page-item"><a class="page-link waves-effect waves-effect">2</a></li>
+                                        <li class="page-item"><a class="page-link waves-effect waves-effect">3</a></li>
+                                        <li class="page-item"><a class="page-link waves-effect waves-effect"><i
+                                                    class="fas fa-chevron-right"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="">
+                                    <div class="view zoom z-depth-2 rounded">
+                                        <img class="img-fluid w-100"
+                                            src="img/6.png"
+                                            alt="Sample">
+                                    </div>
+                                    <div class="text-center pt-4">
+                                        <h5>Round mirror</h5>
+                                        <h6 class="mb-3">$ 55.00</h6>
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm mr-1 waves-effect waves-light"><i
+                                                class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
+                                        <button type="button"
+                                            class="btn btn-danger btn-sm px-3 material-tooltip-main waves-effect waves-light"
+                                            data-toggle="tooltip" data-placement="top" title=""
+                                            data-original-title="Add to wishlist"><i class="far fa-heart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="">
+                                    <div class="view zoom z-depth-2 rounded">
+                                        <img class="img-fluid w-100"
+                                            src="img/7.png"
+                                            alt="Sample">
+                                    </div>
+                                    <div class="text-center pt-4">
+                                        <h5>Round mirror</h5>
+                                        <h6 class="mb-3">$ 55.00</h6>
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm mr-1 waves-effect waves-light"><i
+                                                class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
+                                        <button type="button"
+                                            class="btn btn-danger btn-sm px-3 material-tooltip-main waves-effect waves-light"
+                                            data-toggle="tooltip" data-placement="top" title=""
+                                            data-original-title="Add to wishlist"><i class="far fa-heart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="">
+                                    <div class="view zoom z-depth-2 rounded">
+                                        <img class="img-fluid w-100"
+                                            src="img/5.png"
+                                            alt="Sample">
+                                    </div>
+                                    <div class="text-center pt-4">
+                                        <h5>Round mirror</h5>
+                                        <h6 class="mb-3">$ 55.00</h6>
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm mr-1 waves-effect waves-light"><i
+                                                class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
+                                        <button type="button"
+                                            class="btn btn-danger btn-sm px-3 material-tooltip-main waves-effect waves-light"
+                                            data-toggle="tooltip" data-placement="top" title=""
+                                            data-original-title="Add to wishlist"><i class="far fa-heart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="">
+                                    <div class="view zoom z-depth-2 rounded">
+                                        <img class="img-fluid w-100"
+                                            src="img/4.png"
+                                            alt="Sample">
+                                    </div>
+                                    <div class="text-center pt-4">
+                                        <h5>Round mirror</h5>
+                                        <h6 class="mb-3">$ 55.00</h6>
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm mr-1 waves-effect waves-light"><i
+                                                class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
+                                        <button type="button"
+                                            class="btn btn-danger btn-sm px-3 material-tooltip-main waves-effect waves-light"
+                                            data-toggle="tooltip" data-placement="top" title=""
+                                            data-original-title="Add to wishlist"><i class="far fa-heart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="">
+                                    <div class="view zoom z-depth-2 rounded">
+                                        <img class="img-fluid w-100"
+                                            src="img/3.png"
+                                            alt="Sample">
+                                    </div>
+                                    <div class="text-center pt-4">
+                                        <h5>Round mirror</h5>
+                                        <h6 class="mb-3">$ 55.00</h6>
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm mr-1 waves-effect waves-light"><i
+                                                class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
+                                        <button type="button"
+                                            class="btn btn-danger btn-sm px-3 material-tooltip-main waves-effect waves-light"
+                                            data-toggle="tooltip" data-placement="top" title=""
+                                            data-original-title="Add to wishlist"><i class="far fa-heart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end block content -->
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-area" style="padding: 50px 0 20px 0 !important;">
+            <div class="container">
+                <div class="row section_gap">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title large_title">Our Mission</h4>
+                            <p>
+                                So seed seed green that winged cattle in. Gathering thing made fly you're no
+                                divided deep moved us lan Gathering thing us land years living.
+                            </p>
+                            <p>
+                                So seed seed green that winged cattle in. Gathering thing made fly you're no divided
+                                deep moved
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title">Quick Links</h4>
+                            <ul class="list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget instafeed">
+                            <h4 class="footer_title">Gallery</h4>
+                            <ul class="list instafeed" style="float: right;">
+                                <li><img class="img-fluid" src="img/1.png"></li>
+                                <li><img class="img-fluid" src="img/2.png"></li>
+                                <li><img class="img-fluid" src="img/3.png"></li>
+                                <li><img class="img-fluid" src="img/4.png"></li>
+                                <li><img class="img-fluid" src="img/5.png"></li>
+                                <li><img class="img-fluid" src="img/6.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets" style="display: block;float: right;">
+                            <h4 class="footer_title">Contact Us</h4>
+                            <div class="ml-40">
+                                <p class="sm-head">
+                                    <span class="fa fa-location-arrow"></span>
+                                    Head Office
+                                </p>
+                                <p>123, Main Street, Your City</p>
+                                <p class="sm-head">
+                                    <span class="fa fa-phone"></span>
+                                    Phone Number
+                                </p>
+                                <p>
+                                    +123 456 7890 <br>
+                                    +123 456 7890
+                                </p>
+                                <p class="sm-head">
+                                    <span class="fa fa-envelope"></span>
+                                    Email
+                                </p>
+                                <p>
+                                    free@infoexample.com <br>
+                                    www.infoexample.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Script -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>

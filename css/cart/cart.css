@@ -1,0 +1,193 @@
+.skin-light .card {
+    font-weight: 300;
+    -webkit-box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
+    border-radius: .375rem;
+}
+
+.skin-light .card .card-body h1, .skin-light .card .card-body h2, .skin-light .card .card-body h3, .skin-light .card .card-body h4, .skin-light .card .card-body h5, .skin-light .card .card-body h6 {
+    font-weight: 500;
+}
+
+.skin-light .z-depth-1 {
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 7%), 0 2px 10px 0 rgb(0 0 0 / 7%) !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 7%), 0 2px 10px 0 rgb(0 0 0 / 7%) !important;
+}
+
+.skin-light .rounded {
+    border-radius: 0.375rem !important;
+}
+
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+
+.zoom img, .zoom video {
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.view img, .view video {
+    position: relative;
+    display: block;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.overlay .mask {
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.view .mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.side-nav .sidenav-bg, .view .mask {
+    background-attachment: fixed;
+    bottom: 0;
+}
+
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+}
+
+.pswp__container, .pswp__img, .waves-effect {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.skin-light .number-input.number-input {
+    border: 1px solid #ced4da;
+    width: 8.6rem;
+    border-radius: .25rem;
+}
+
+.skin-light .number-input {
+    margin-bottom: 3rem;
+}
+
+.skin-light .number-input.number-input button.minus {
+    padding-left: 10px;
+}
+
+.skin-light .number-input.number-input button {
+    width: 2.5rem;
+    height: .7rem;
+    outline: none;
+}
+
+.skin-light .number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: 20px !important;
+    border: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.skin-light .number-input.number-input input[type=number] {
+    max-width: 3rem;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #495057;
+}
+
+.skin-light .number-input input[type=number] {
+    text-align: center;
+}
+
+.skin-light .number-input input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.skin-light a.card-link-secondary {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.skin-light .card-link-secondary {
+    color: #6c757d;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.skin-light .wish-list a.card-link-secondary>.fas.fa-heart {
+    color: #6c757d !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.skin-light .list-group-flush .list-group-item {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.list-group .list-group-item:first-child {
+    border-top-left-radius: .125rem;
+    border-top-right-radius: .125rem;
+}
+
+.skin-light .btn {
+    margin: 0;
+    font-weight: 500;
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    font-size: 12px;
+    padding: 17px 29px 16px 29px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.skin-light .btn-primary {
+    color: #fff;
+    background-color: #1266f1 !important;
+}
+
+.dark-grey-text, .dark-grey-text:focus, .dark-grey-text:hover {
+    color: #4f4f4f!important;
+}
+
+.md-form.md-outline {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.md-form {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+a.dark-grey-text {
+    text-decoration: none;
+}

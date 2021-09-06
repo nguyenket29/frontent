@@ -1,0 +1,128 @@
+*,::after,::before {
+    box-sizing: border-box;
+}
+
+.rounded {
+    border-radius: 0.375rem !important;
+}
+
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 7%) !important;
+}
+
+.view.zoom.z-depth-2.rounded:hover img {
+    transform: scale(1.2);
+}
+
+.zoom img{
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.view img{
+    position: relative;
+    display: block;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.side-nav .sidenav-bg, .view .mask {
+    background-attachment: fixed;
+    bottom: 0;
+}
+
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+}
+
+.waves-effect {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.badge-news {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.overlay .mask:hover {
+    opacity: 1;
+}
+
+.rgba-black-slight, .rgba-black-slight:after {
+    background-color: rgba(0,0,0,.1);
+}
+
+.rating {
+    color: #4f4f4f;
+}
+.rating {
+    padding: 0;
+    color: #ffa000;
+    list-style-type: none;
+}
+
+.text-primary {
+    color: #1266f1 !important;
+}
+
+.btn.btn-sm {
+    font-size: 14px;
+    padding: 11px 21px 10px 21px;
+    line-height: 1.1;
+}
+
+.skin-light .btn {
+    margin: 0;
+    font-weight: 500;
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    font-size: 12px;
+    padding: 17px 29px 16px 29px;
+    line-height: 1;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1266f1 !important;
+}
+
+.btn-elegant {
+    color: #fff;
+    background: #222;
+}
+
+.btn-light {
+    color: #4f4f4f !important;
+    background-color: #f2f2f2 !important;
+}
+
+.rating li {
+    display: inline-block;
+}
